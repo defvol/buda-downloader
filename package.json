@@ -1,0 +1,29 @@
+{
+  "name": "buda-client",
+  "version": "0.1.0",
+  "description": "API client for datos.gob.mx",
+  "bin": {
+    "buda-client": "lib/cli.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "keywords": [
+    "api",
+    "client",
+    "datos.gob.mx",
+    "generator-npm-pasta",
+    "open data",
+    "wrapper"
+  ],
+  "author": "rodowi",
+  "license": "ISC",
+  "repository": "rodowi/buda-client",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
