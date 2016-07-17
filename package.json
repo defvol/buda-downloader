@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "minimist": "^1.2.0",
+    "nulog": "^1.0.1",
     "paged-http-stream": "^1.0.1",
     "query-string": "^4.2.2"
   }
