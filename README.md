@@ -1,13 +1,13 @@
-# buda-client
+# buda-downloader
 
-API client for datos.gob.mx
+Download manager for api.datos.gob.mx
 
-Examples:
+Usage:
 
 Download a whole database in batches of 10k waiting 20s between calls.
 
 ```bash
-% buda-client --download profeco.precios --delay 20 --batch 10000
+% buda-downloader --download profeco.precios --delay 20 --batch 10000
 ```
 
 See the API documentation in [mxabierto/buda](https://github.com/mxabierto/buda).
