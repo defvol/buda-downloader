@@ -1,6 +1,6 @@
 {
   "name": "buda-downloader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Download manager for api.datos.gob.mx",
   "bin": {
     "buda-downloader": "lib/cli.js"
